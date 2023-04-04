@@ -33,7 +33,7 @@ ORDER BY
 
 
 -- Looking at Total Cases vs Total Deaths
--- Shows likelihood of dying if ou contract COVID in México
+-- Shows likelihood of dying if ou contract COVID in MÃ©xico
 
 SELECT
 	Location,
@@ -44,7 +44,7 @@ SELECT
 FROM
 	Portfolio_Project..covid_deaths
 WHERE 
-	location = 'México' AND continent is not null
+	location = 'MÃ©xico' AND continent is not null
 ORDER BY 
 	1, 2
 
